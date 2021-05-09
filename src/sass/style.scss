@@ -21,12 +21,9 @@ body {
             border-radius: 50%;
             border: 1px solid #7a4949;
             box-shadow: #462d2d 10px 10px 40px;
-        }
-        a {
-            border: 5px solid rgba($color: #fff, $alpha: .0);
             &.active {
                 border-radius: 100%;
-                border: 5px solid #ecc3d4;
+                border: 3px solid #ecc3d4;
             }
         }
         
