@@ -78,8 +78,12 @@ section {
 }
 
 .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     button {
         min-width: 250px;
+        max-width: 450px;
         padding: 10px 20px;
         margin: 20px 50px;
         border-radius: 8px;
