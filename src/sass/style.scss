@@ -15,6 +15,10 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
+        .active {
+            border-radius: 100%;
+            border: 5px solid #ecc3d4;
+        }
         img {
             width: 30px;
             height: 30px;
